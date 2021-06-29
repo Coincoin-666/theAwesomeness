@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-501</title>
+</head>
+
+<body>
+    <h1>Changement de mot de passe:</h1>
+    <form action="index.html">
+        <div>
+            <label for="password">Nouveau mot de passe:</label>
+            <input type="password" name="password" id="new_passwd">
+        </div>
+        <div>
+            <label for="confirm">Retapez votre nouveau mot de passe:</label>
+            <input type="password" name="confirm" id="confirm_passwd">
+            <button type="button" id="btn">Confirmer</button>
+        </div>
+    </form>
+    <h2>Changement de mot de passe 2:</h2>
+    <p>V2/Correction: cf JS e.preventDefault() so btn type="submit"</p>
+    <form action="index.html">
+        <div>
+            <label for="password_2">Nouveau mot de passe 2:</label>
+            <input type="password" name="password_2" id="new_passwd_2">
+        </div>
+        <div>
+            <label for="confirm_2">Retapez votre nouveau mot de passe 2:</label>
+            <input type="password" name="confirm_2" id="confirm_passwd_2">
+            <button type="submit" id="btn_2">Confirmer 2</button>
+        </div>
+    </form>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
